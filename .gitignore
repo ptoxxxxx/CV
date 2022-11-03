@@ -1,3 +1,6 @@
 #Prettier plugin save location
 
 .prettierrc
+
+# images folder
+/img
