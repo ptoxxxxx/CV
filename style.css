@@ -6,16 +6,18 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
-    justify-content: center;
+    width: 1100px;
+    justify-content: left;
     margin: 0 auto;
     background: #ffffff;
-    box-shadow: 6px 6px 20px 0px #0000001a;
+    box-shadow: 6px 6px 20px  #0000001a;
+ 
 }
 
 aside {
     width: 370px;
     background: #1e2939;
+    
 }
 
 .cv-photo {
@@ -60,6 +62,11 @@ aside {
     margin-left: 60px;
 }
 
+.tech-tools-block {
+    margin-top: 47px;
+    margin-left: 60px;
+}
+
 .soft-skills-block {
     margin-top: 44px;
     margin-left: 60px;
@@ -70,6 +77,7 @@ main {
     padding-top: 102px;
     padding-bottom: 102px;
     padding-right: 88px;
+    
 }
 
 .main-description {
@@ -117,6 +125,13 @@ h1 {
     text-decoration: none;
 }
 
+.work-experience-section {
+    margin-top: 50px;
+}
+
+.education-section {
+    margin-top: 50px;
+}
 .header-primary {
     font-weight: 700;
     font-size: 22px;
@@ -187,3 +202,6 @@ h1 {
     line-height: 24px;
     color: #595959;
 }
+
+.certificates-section {
+    margin-top: 50px;
