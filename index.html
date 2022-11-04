@@ -5,78 +5,45 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CV - Paweł Tomanek</title>
+
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <aside>
-            <img
-                src="img\NerdPhoto.png"
-                width="370"
-                alt="Photo of a famous Nerd"
-            />
-
-            <div>
-                <h2>Contact</h2>
-                <p>
-                    +48 694 812 860 <br />
-
-                    <a href="mailto:">ptomanek@gmail.com</a> <br />
-
-                    www.linkedin.com/in/paweltomanek <br />
-
-                    www.github.com/ptoxxxxx
-                </p>
-            </div>
-
-            <div>
-                <h2>Tech skills</h2>
-                <ul>
-                    <li>Software Testing</li>
-                    <li>SQL basics</li>
-                    <li>Postman</li>
-                    <li>HTML+CSS</li>
-                    <li>GIT basics</li>
-                    <li>Selenium IDE</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>Soft skills</h2>
-                <ul>
-                    <li>Communication</li>
-                    <li>Precision</li>
-                    <li>Analytical thinking</li>
-                </ul>
-            </div>
-        </aside>
+        <div class="wrapper">
+      
 
         <main>
-            <div>
-                <h2>Junior Software Tester</h2>
+            <div class="main-description">
+                <h2 class="job-title">Junior Software Tester</h2>
                 <h1>Paweł Tomanek</h1>
-                <p>
-                    orem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                    eos nesciunt possimus magnam optio reiciendis ullam ea
-                    dolores magni ipsum sit porro vitae aut temporibus culpa
-                    modi, ab dolor quam.
+                <p class="description">
+                    I am well organized, detail-oriented and communicative person, motivated for further learning and self-development.
+                    I am constantly building up an adequate tech skillset and looking for the opportunity to professionally take on the role of a Software Tester.
                 </p>
             </div>
-            <div>
-                <h2>Projects</h2>
-                <ol>
-                    <li>
-                        <a href="https://github.com/ptoxxxxx"
-                            >https://github.com/ptoxxxxx</a
-                        >..........[Github]
-                    </li>
-                    <li>Y</li>
-                    <li>Z</li>
+            <!--MY PROJECTS-->
+          <!--
+  <div class="projects">
+                <h2 class="header-primary">Projects</h2>
+                <ol class="list-primary">
+                    <li >
+                        <a class="list-primary-item" href="https://github.com/ptoxxxxx">https://github.com/ptoxxxxx</a> <span class="list-primary-item">..........</span>[<span class="list-primary-item">Github</span>]
+                   </li>
+                   
+                   
                 </ol>
-            </div>
+            </div> -->
             <div>
-                <h2>Work Experience</h2>
-                <h3>Intern – Junior Software Tester</h3>
-                <p>TestArmy Group S.A. | July 2022 – October 2022</p>
-                <ul>
+                <h2 class="header-primary">Work Experience</h2>
+                <h3 class="job-name">Intern – Junior Software Tester <span class="highlite">TestArmy Group S.A.</span></h3>
+                <p class="job-date">July 2022 - October 2022</p>
+                <ul class="job-list">
                     <li>Performing session-based exploratory testing</li>
                     <li>
                         Familiarize with the principles of proper test report
@@ -92,9 +59,9 @@
                 </ul>
             </div>
             <div>
-                <h3>Quality Control Specialist</h3>
-                <p>Kalla Sp. z o.o. | August 2015 – July 2020</p>
-                <ul>
+                <h3 class="job-name">Quality Control Specialist <span class="highlite">Kalla Sp. z o.o.</span></h3>
+                <p class="job-date">August 2015 - July 2020</p>
+                <ul class="job-list">
                     <li>Creating project welding quality documentation</li>
                     <li>Performing inspection of process installation</li>
                     <li>
@@ -105,10 +72,11 @@
             </div>
 
             <div>
-                <h2>Education</h2>
-                <h3>Testing Academy</h3>
-                <p>Testuj.pl | July 2022</p>
-                <ul>
+                <h2 class="header-primary">Education</h2>
+                <h3 class="education-name">Testing Academy</h3>
+                <p class="education-place">Testuj.pl</p>
+                <p class="education-date">July 2022</p>
+                <ul class="education-list">
                     <li>Learning how to report bugs and create test cases</li>
                     <li>Basics of working in Scrum</li>
                     <li>Fundamentals of testing an test management</li>
@@ -119,15 +87,65 @@
                 </ul>
             </div>
             <div>
-                <h3>Chemical Technology and Engineering</h3>
-                <p>
-                    Silesian University of Technology│October 2007-December 2012
+                <h3 class="education-name">Chemical Technology and Engineering</h3>
+                <p class="education-place">
+                    Silesian University of Technology
+               
+                    <p class="education-date">October 2007 - December 2012</p>
+                    <p class="study-speciality"> Speciality: Process Engineering in Green Chemical
+                    Technologies</p>
                 </p>
-                <p>
-                    Speciality: Process Engineering in Green Chemical
-                    Technologies
-                </p>
+                
+            </div>
+            <h2 class="header-primary">Certificates</h2>
+            <h3 class="education-name">ISTQB Foundation Level (CTFL)</h3>
+            <p class="education-date">July 2022</p>
+            <div>
+
+                
             </div>
         </main>
+
+        <aside>
+            <img class="cv-photo"
+                src="img\foto cv.png"
+                width="230"
+                alt="My photo"
+            />
+
+            <div class="contact-block">
+                <h2 class="header-secondary">Contact</h2>
+                <p class="contact-links">
+                  <span class="bold">  C:</span>
+                    +48 694 812 860 <br />
+<span class="bold"> E:</span>
+                    <a class="contact-links" href="mailto:">ptomanek@gmail.com</a> <br />
+
+            
+            </div>
+
+            <div class="tech-skills-block">
+                <h2 class="header-secondary">Tech skills</h2>
+                <ul class="list-secondary">
+                    <li><span class="list-secondary-item">Software Testing</span></li>
+                    <li><span class="list-secondary-item">SQL basics</span></li>
+                    <li><span class="list-secondary-item">Postman</span></li>
+                    <li><span class="list-secondary-item">HTML+CSS</span></li>
+                    <li><span class="list-secondary-item">GIT basics</span></li>
+                    <li><span class="list-secondary-item">Selenium IDE</span></li>
+                </ul>
+            </div>
+
+            <div class="soft-skills-block">
+                <h2 class="header-secondary">Soft skills</h2>
+                <ul class="list-secondary">
+                    <li><span class="list-secondary-item">Communication</span></li>
+                    <li><span class="list-secondary-item">Accuracy</span></li>
+                    <li><span class="list-secondary-item">Analytical thinking</span></li>
+                    <li><span class="list-secondary-item">Teamwork</span></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
     </body>
 </html>
